@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.chess-board {
+  border: 2px solid black;
+  width: 320px;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid black; */
+}
+
+.box:hover {
+  background-color: red !important;
+  cursor: pointer;
+}
+
+.box.highlight {
+  background-color: red !important;
+}
+
+.even:nth-child(odd) {
+  background-color: black;
+}
+
+.odd:nth-child(even) {
+  background-color: black;
+}
